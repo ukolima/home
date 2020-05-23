@@ -1,0 +1,17 @@
+/* Code tidied up by ScrapBook */
+@keyframes fadeInside {
+0% { opacity: 1; }
+100% { opacity: 0.4; }
+}
+@keyframes fadeOutside {
+0% { opacity: 0.8; }
+100% { opacity: 0.25; }
+}
+@keyframes fadeRed {
+0% { opacity: 0.7; }
+100% { opacity: 1; }
+}
+@media (min-width: 800px) {
+}
+@media (min-width: 801px) {
+}
