@@ -1,0 +1,44 @@
+/* Code tidied up by ScrapBook */
+#sb_instagram { width: 100%; margin: 0px auto; padding: 0px; box-sizing: border-box; }
+#sb_instagram::after { content: ""; display: table; clear: both; }
+#sb_instagram #sbi_images { width: 100%; float: left; line-height: 0; box-sizing: border-box; }
+#sb_instagram #sbi_images .sbi_item { display: inline-block; float: left; vertical-align: top; max-height: 1000px; padding: inherit !important; margin: 0px !important; text-decoration: none; opacity: 1; overflow: hidden; box-sizing: border-box; transition: all 0.5s ease 0s; }
+#sb_instagram.sbi_col_6 #sbi_images .sbi_item { width: 16.66%; }
+#sb_instagram .sbi_photo_wrap { position: relative; }
+#sb_instagram .sbi_photo { display: block; text-decoration: none; }
+#sb_instagram .sbi_photo img { width: 100%; height: auto; }
+#sb_instagram a, #sb_instagram a:active, #sb_instagram a:focus, #sb_instagram a:hover { outline: 0px none; }
+#sb_instagram img { display: block; padding: 0px !important; margin: 0px !important; max-width: 100% !important; opacity: 1 !important; }
+#sb_instagram svg.svg-inline--fa:not(:root) { height: 1em; display: inline-block; }
+#sb_instagram .sbi_type_carousel .sbi_playbtn, #sb_instagram .sbi_type_carousel .svg-inline--fa.fa-play, #sb_instagram .sbi_type_video .sbi_playbtn, #sb_instagram .sbi_type_video .svg-inline--fa.fa-play, .sbi_type_carousel .fa-clone { display: block !important; position: absolute; z-index: 1; color: rgba(255, 255, 255, 0.9); font-style: normal !important; text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8); }
+#sb_instagram .sbi_type_carousel .fa-clone { right: 12px; top: 12px; font-size: 24px; text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); }
+#sb_instagram .sbi_type_carousel .svg-inline--fa.fa-play, #sb_instagram .sbi_type_video .svg-inline--fa.fa-play, .sbi_type_carousel svg.fa-clone { filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.4)); }
+@keyframes sbi-sk-scaleout {
+0% { transform: scale(0); }
+100% { transform: scale(1); opacity: 0; }
+}
+@keyframes sbi-sk-scaleout {
+0% { transform: scale(0); }
+100% { transform: scale(1); opacity: 0; }
+}
+@keyframes fa-spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(359deg); }
+}
+@keyframes fa-spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(359deg); }
+}
+.sbi-screenreader { text-indent: -9999px !important; display: block !important; width: 0px !important; height: 0px !important; line-height: 0 !important; text-align: left !important; }
+@media all and (min-width: 480px) {
+}
+#sb_instagram #sbi_load { float: left; clear: both; width: 100%; text-align: center; }
+#sb_instagram #sbi_load { opacity: 1; transition: all 0.5s ease-in 0s; }
+#sb_instagram.sbi_medium .sbi_type_carousel .sbi_photo_wrap .fa-clone { right: 8px; top: 8px; font-size: 18px; }
+@media all and (max-width: 640px) {
+  #sb_instagram.sbi_col_3 #sbi_images .sbi_item, #sb_instagram.sbi_col_4 #sbi_images .sbi_item, #sb_instagram.sbi_col_5 #sbi_images .sbi_item, #sb_instagram.sbi_col_6 #sbi_images .sbi_item { width: 50%; }
+  #sb_instagram.sbi_width_resp { width: 100% !important; }
+}
+@media all and (max-width: 480px) {
+  #sb_instagram.sbi_col_10 #sbi_images .sbi_item, #sb_instagram.sbi_col_3 #sbi_images .sbi_item, #sb_instagram.sbi_col_4 #sbi_images .sbi_item, #sb_instagram.sbi_col_5 #sbi_images .sbi_item, #sb_instagram.sbi_col_6 #sbi_images .sbi_item, #sb_instagram.sbi_col_7 #sbi_images .sbi_item, #sb_instagram.sbi_col_8 #sbi_images .sbi_item, #sb_instagram.sbi_col_9 #sbi_images .sbi_item { width: 100%; }
+}

@@ -1,0 +1,37 @@
+/* Code tidied up by ScrapBook */
+html, body { min-height: 100% !important; height: auto !important; }
+.spu-box, .spu-box * { box-sizing: border-box; }
+.spu-bg { position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; display: none; z-index: 99999; }
+.spu-box::before, .spu-box::after { content: ""; display: table; }
+.spu-box::after { clear: both; }
+.spu-box {  }
+.spu-box { position: fixed; z-index: 999999; margin: 10px; max-width: 100%; }
+.spu-box.spu-centered { margin: 0px; }
+.spu-content > :first-child { margin-top: 0px; padding-top: 0px; }
+.spu-content > :last-child { margin-bottom: 0px; padding-bottom: 0px; }
+.spu-close { position: absolute; padding: 0px; cursor: pointer; background: transparent none repeat scroll 0% 0%; border: 0px none; line-height: 1; }
+.spu-close.top_right { right: 8px; top: 5px; }
+.spu-close:hover, .spu-close:focus { text-decoration: none; cursor: pointer; }
+@font-face {
+  font-family: "spufont";
+  font-style: normal;
+  font-weight: normal;
+  src: url("spufont.eot") format("embedded-opentype"), url("spufont.woff") format("woff"), url("spufont.ttf") format("truetype"), url("spufont.svg") format("svg");
+}
+[class^="spu-icon-"], [class*=" spu-icon-"] { font-family: "spufont"; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -moz-osx-font-smoothing: grayscale; }
+.spu-icon-close::before { content: ""; }
+@keyframes spu-rotate {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+@keyframes spu-rotate {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+@keyframes spu-rotate {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+@media only screen and (max-width: 620px) {
+  .spu-box { margin: 0px; }
+}

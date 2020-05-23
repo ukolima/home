@@ -1,0 +1,55 @@
+/* Code tidied up by ScrapBook */
+@media all and (max-width: 700px) {
+}
+@media all and (max-width: 700px) {
+}
+@keyframes bufferBackground {
+0% { background-position: 0px 0px; }
+100% { background-position: 24px 0px; }
+}
+@keyframes bufferBackgroundReverse {
+0% { background-position: 0px 0px; }
+100% { background-position: -24px 0px; }
+}
+.uiScaledImageContainer { position: relative; overflow: hidden; }
+.uiScaledImageContainer img { height: 100%; min-height: 100%; position: relative; }
+.uiScaledImageContainer .scaledImageFitHeight { height: 100%; min-height: initial; width: auto; }
+@keyframes bufferBackground {
+0% { background-position-x: 0px; }
+100% { background-position-x: 35px; }
+}
+@keyframes bufferBackgroundReverse {
+0% { background-position-x: 0px; }
+100% { background-position-x: -35px; }
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), url("c_1vdG88uNh.woff2") format("woff2"), url("KKlOyJQcRfr.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Roboto Italic"), local("Roboto-Italic"), url("pXADmoqqN0T.woff2") format("woff2"), url("4JKQuH0Oopd.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("zSaFQ46AO2w.woff2") format("woff2"), url("_gCoI-iROin.woff") format("woff");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"), url("Tq0RmTByOSK.woff2") format("woff2"), url("AaoylUgS9_g.woff") format("woff");
+}
+@keyframes piyqo8ul-B {
+0% { opacity: 0.02; }
+100% { opacity: 0.08; }
+}
+@keyframes srbsyapi-B {
+0%, 100% { opacity: 0; }
+}
